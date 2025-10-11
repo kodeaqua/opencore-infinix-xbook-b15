@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 test -f $HOME/Library/LaunchAgents/mkl.plist && echo "Patch was already used! You don't have to run it again" && exit
 sudo -v
