@@ -16,7 +16,7 @@
 | Storage          | 512GB NVMe SSD                   |
 | Wi-Fi / BT       | Soldered Realtek RTL8821CE       |
 | LAN              | Realtek RTL8111                  |
-| Audio            | Realtek ALC69                    |
+| Audio            | Realtek ALC269VC                 |
 | macOS Version    | macOS Sonoma 14.8                |
 | OpenCore Version | 1.0.5                            |
 | SMBIOS           | MacBookPro16,2                   |
