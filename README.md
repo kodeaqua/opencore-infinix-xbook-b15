@@ -31,7 +31,7 @@
 - [X] Audio (Speakers & Microphone)
 - [X] Internal Display (Brightness Control)
 - [ ] Wi-Fi
-- [ ] Bluetooth
+- [X] Bluetooth
 - [X] Battery Status
 - [X] Sleep / Wake
 - [X] USB Ports
@@ -45,16 +45,14 @@
 
 ## ⚠️ Known Issues
 
-- Wi-Fi and Bluetooth
+- Wi-Fi
 - You tell me
 
 > Wi-Fi is dead, bruh, and this laptop has a soldered PCIe Wi-Fi card.
 >
 > Alternatively, I use a USB Wi-Fi adapter (TP-Link WL725N), which costs around IDR 90K.
 >
-> Then, I followed
->
-> [this guide](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapterhttps:/).
+> Then, I followed [this guide](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter).
 
 ## 🛠️ Required BIOS Settings
 
@@ -96,6 +94,7 @@ Please update to the latest BIOS and configure the following:
   - RestrictEvents.kext (v1.1.6)
   - ECEnabler.kext (v1.0.6)
   - BrightnessKeys.kext (v1.0.3)
+  - BrcmPatchRAM.kext (+ BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmNonPatchRAM2.kext, BrcmPatchRAM3.kext) (v2.7.1)
 
 ---
 
