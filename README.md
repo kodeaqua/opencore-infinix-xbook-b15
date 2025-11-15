@@ -53,13 +53,14 @@ EFI for running macOS on the Infinix XBOOK B15 BL15A5 using OpenCore bootloader.
 ## ⚠️ Known Issues
 
 - Wi-Fi
-- Location Service
-- Rendering
-- You tell me
-
 > Wi-Fi is dead, bruh, and this laptop has a soldered PCIe Wi-Fi card. Alternatively, I use a USB Wi-Fi adapter (TP-Link WL725N), which costs around IDR 90K. Then, I followed [this guide](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter).
+- Location Service
 > Location Services are not working because they require a macOS-compatible Wi-Fi card.
+- Rendering
 > Rendering is actually fast and good, but when you run apps or games like Steam or PCSX2, you will see artifacting, and the system may freeze for a few moments. I don’t know why. The same issue also happens in Google Chrome.
+- Audio
+> Audio works, but the laptop speakers are incorrectly recognized as Line Out. You need to manually change the output device in System Settings.
+- You tell me
 
 ## 🛠️ Required BIOS Settings
 
